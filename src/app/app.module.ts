@@ -22,6 +22,8 @@ import { TarrifcalculatorComponent } from './tarrifcalculator/tarrifcalculator.c
 import { QuoterequestComponent } from './quoterequest/quoterequest.component';
 import { WarehousequoteComponent } from './warehousequote/warehousequote.component';
 import { ThreeplComponent } from './threepl/threepl.component';
+import { SliderComponent } from './slider/slider.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 export const appRoutes: Routes = [
     { path: 'about', component: AboutComponent },
@@ -30,8 +32,8 @@ export const appRoutes: Routes = [
     { path: 'services/3pl', component: ThreeplComponent },
     { path: 'services/cfc', component: CfcComponent },
     { path: 'login', component: LoginComponent },
-    { path: 'support/quotation/warehousing', component: ContactComponent },
-    { path: 'support/quotation/3pl', component: ContactComponent },
+    { path: 'support/quotation/warehousing', component: WarehousequoteComponent },
+    { path: 'support/quotation/3pl', component: QuoterequestComponent },
     { path: 'support/quotation/cfc', component: ContactComponent },
     { path: 'customer-feedback', component: FeedbackComponent },
     { path: 'support/need-to-know', component: Need2knowComponent },
@@ -67,7 +69,9 @@ export const appRoutes: Routes = [
     FooterComponent,
     NavbarComponent,
     ToolbarComponent,
-    ThreeplComponent
+    ThreeplComponent,
+    SliderComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserModule,

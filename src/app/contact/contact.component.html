@@ -1,3 +1,90 @@
-<p>
-  contact works!
-</p>
+<div class="find_us  animated fadeInUp">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="contacts">
+                    <div>
+                        <h2 class="lt-t mg-b-30">For more information<br /> and enquiries please see below:</h2>
+                        <p>
+                            <b>Physical Address:</b> {{ physical_addr }}<br />
+                            <b>Office:</b> {{ office_no1 }}, {{ office_no2 }}<br />
+                            <b>Email:</b> {{ email }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h4 class="mg-t-30">Our Headquaters</h4>
+                <div class="gmap br-10" id="map">
+                    <!--<img [src]="url" alt="Headquaters">>
+                    <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+                        <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker>
+                    </sebm-google-map -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="enquire animated fadeInUp">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <a [routerLink]="['/customer-feedback']" class="btn c-wt">Click here to go to an Enquiry Form...</a>
+                <a [routerLink]="['/customer-feedback']" class="btn btn-default btn-blue pull-right">Enquiry Form</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid animated fadeInUp">
+    <div class="row mg-b-10 mg-t-10">
+        <div class="col-sm-3">
+            <div class="media">
+                <!-- a class="pull-left" (click)="changeContact($event)" id="gaborone">
+                    <img class="media-object" src="/images/gabzWare.png" alt="Image">
+                </a -->
+                <a class="pull-left" (click)="changeLatLong(-24.6793068,25.9287612)" id="gaborone">
+                    <img class="media-object" src="/assets/images/gabzWare.png" alt="Image">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">Gaborone</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="media">
+                <a class="pull-left" (click)="changeContact($event)" id="francistown">
+                    <img class="media-object" src="/assets/images/ftwnWare.png" alt="Image">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">Francistown</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="media">
+                <a class="pull-left" (click)="changeLatLong(-20.0003618,23.3838839)" id="maun">
+                    <img class="media-object" src="/assets/images/maunWare.png" alt="Image">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">Maun</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="media">
+                <a class="pull-left" (click)="changeContact($event)" id="Johannesburg">
+                    <img class="media-object" src="/assets/images/joburgWare.png" alt="Image">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">Johannesburg</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

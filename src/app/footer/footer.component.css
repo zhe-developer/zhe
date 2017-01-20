@@ -1,0 +1,33 @@
+.footer-contacts {
+    height: 120px;
+    background: url(../assets/images/contacts_bg.png) no-repeat;
+    background-position: center;
+}
+
+:host .contacts {
+    display: table;
+    height: 120px;
+    width: 100%;
+    background: url(../assets/images/globe.png) no-repeat;
+    background-position: right;
+}
+
+:host .contacts>.contact-details {
+    display: table-cell;
+    height: 120px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+:host .navbar {
+    background-color: #003148;
+    color: rgba(255, 255, 255, 0.87);
+    display: block;
+    margin-bottom: 0px;
+    height: 48px;
+    padding: 0 16px;
+}
+
+.navbar-default .navbar-text {
+    color: #ffffff;
+}

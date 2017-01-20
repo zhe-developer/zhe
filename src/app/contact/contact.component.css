@@ -1,0 +1,46 @@
+:host .find_us {
+    background: url(../images/contacts_map.png) no-repeat;
+    background-position: center;
+}
+
+:host .contacts {
+    display: table;
+}
+
+:host .contacts>div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 450px;
+}
+
+:host .gmap {
+    height: 350px;
+    background: #f0f0f0;
+}
+
+:host .media-object {
+    max-width: 140px;
+}
+
+:host .media-body p {
+    font-size: 9px;
+    line-height: 10px;
+}
+
+.enquire {
+    background: #0094BF;
+    padding: 10px;
+}
+
+.btn-blue {
+    background: #003249;
+    color: #ffffff;
+}
+
+.btn:hover {
+    color: #D7DE21;
+}
+
+.sebm-google-map-container {
+    height: 350px;
+}
