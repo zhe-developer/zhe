@@ -2,16 +2,25 @@
   
   
 </nav -->
+<<<<<<< HEAD
 <nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+=======
+<nav class="navbar navbar-default pd-t-20 pd-b-20" role="navigation">
+	<div class="container-fluid col-sm-offset-1 pd-l-20">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header  pd-l-20">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+>>>>>>> ang-dev
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+<<<<<<< HEAD
             <a class="navbar-brand" [routerLink]="['/']">
                 <img src="/assets/images/logo.png" alt="ZHE" class="brand">
             </a>
@@ -51,4 +60,47 @@
         </div>
         <!-- /.navbar-collapse -->
     </div>
+=======
+			<a class="navbar-brand" [routerLink]="['/']">
+				<img src="/assets/images/logo.png" alt="ZHE" class="brand">
+			</a>
+		</div>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="pd-l-20">
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/']">HOME</a></li>
+					<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/about']">ABOUT</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVICES <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/3pl']">3PL</a></li>
+							<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/cfc']">C+F+C</a></li>
+						</ul>
+					</li>
+					<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/e-commerce']">e-COMMERCE</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">CUSTOMER CENTER <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/customer-need-to-know']">CUSTOMER NEED TO KNOW</a></li>
+							<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/complete-waybill']">HOW TO COMPLETE A WAYBILL</a></li>
+							<!--<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/request-for-quotation']">REQUEST FOR QUOTATION</a></li>-->
+							<li class="dropdown-submenu" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">
+								<a>REQUEST FOR QUOTATION</a>
+								<ul class="dropdown-menu">
+									<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/request-for-quotation']">3PL QUOTE</a></li>
+									<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/request-for-quotation-warehouse']">WAREHOUSE QUOTE</a></li>
+									<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/request-for-quotation']">C+F+C QUOTE</a></li>
+								</ul>
+							</li>
+							<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/customer-feedback']">CUSTOMER FEEDBACK</a></li>
+						</ul>
+					</li>
+					<li [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/contacts']">CONTACT US</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+>>>>>>> ang-dev
 </nav>

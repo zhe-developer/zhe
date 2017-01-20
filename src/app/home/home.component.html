@@ -1,3 +1,126 @@
-<p>
-  home works!
-</p>
+<!--<sd-revoslider></sd-revoslider>-->
+<div class="container-fluid animated fadeInUp">
+	<div class="row">
+		<div class="container-fluid">
+			<div class="btn-toolbar center" role="toolbar" aria-label="...">
+				<div class="btn-group" role="group" aria-label="...">
+					<button type="button" [routerLink]="['/complete-waybill']" class="btn  btn-default"><span><img src="/assets/images/doc.png" alt=""></span>WAYBILL GUIDE</button>
+				</div>
+				<div class="btn-group" role="group" aria-label="...">
+					<button type="button" [routerLink]="['/request-for-quotation']" class="btn  btn-default"><span><img src="/assets/images/doc.png" alt=""></span> REQUEST A QUOTE</button>
+				</div>
+				<div class="btn-group" role="group" aria-label="...">
+					<button type="button" (click)="showTracker()" class="btn  btn-default"><span><img src="/assets/images/loc.png" alt=""></span>PARCEL TRACKING</button>
+				</div>
+				<div class="btn-group" role="group" aria-label="...">
+					<button type="button" [routerLink]="['/tariff-calculator']" class="btn  btn-default"><span><img src="/assets/images/calc.png" alt=""></span> TARIFF CALCULATOR</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row mg-t-30 mg-b-20">
+		<div class="col-sm-12">
+			<h2 class="title medium text-center">Our Services</h2>
+		</div>
+	</div>
+
+	<div class="row pd-l-20 pd-r-20">
+		<div class="col-sm-4">
+			<a [routerLink]="'/cfc'" class="illust">
+				<div class="illust-image">
+					<img src="/assets/images/cfc.png" alt="" class="image-circle">
+				</div>
+				<h3 class="illust-title">
+					C+F+C
+				</h3>
+				<div class="illust-text">
+					Standard Logistics Services C+F+C (Courier, Freight and Customs Clearing).You can trust ZHE to give you access to safe, responsive
+					and exciting nationwide and international deliveries to your convenience.
+
+				</div>
+			</a>
+		</div>
+		<div class="col-sm-4">
+			<a [routerLink]="'/e-commerce'" class="illust">
+				<div class="illust-image">
+					<img src="/assets/images/ecomm.png" alt="" class="image-circle">
+				</div>
+				<h3 class="illust-title">
+					e-Commerce
+				</h3>
+				<div class="illust-text">
+					Never has there been a time for eCommerce than now, in the era were technology is part of our lives. eCommerce has revolutionized
+					the way in which companies do their business. Shop online anywhere, any time.
+				</div>
+			</a>
+		</div>
+		<div class="col-sm-4">
+			<a [routerLink]="'/3pl'" class="illust">
+				<div class="illust-image">
+					<img src="/assets/images/3pl.png" alt="" class="image-circle">
+				</div>
+				<h3 class="illust-title">
+					3PL
+				</h3>
+				<div class="illust-text">
+					As a Third-party, ZHE provides flexible, optimal and efficient support solutions to meet the need of customers who
+					do not have the capacity to respond to dynamic customer demands.
+				</div>
+			</a>
+		</div>
+	</div>
+
+
+	<div class="row mg-t-20 mg-b-20 pd-t-20">
+		<div class="col-sm-4 col-sm-offset-4">
+			<h2 class="text-center">Our Values</h2>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3 col-xs-12">
+			<div class="score">
+				<div class="score-item">
+					<div class="icon">
+						<img src="/assets/images/safe.png" alt="">
+					</div>
+					<span class="text"><b>S</b>afe</span>
+				</div>
+				<div class="score-item">
+					<div class="icon">
+						<img src="/assets/images/competitive.png" alt="">
+					</div>
+					<span class="text"><b>C</b>ompetitive</span>
+				</div>
+				<div class="score-item">
+					<div class="icon">
+						<img src="/assets/images/organized.png" alt="">
+					</div>
+					<span class="text"><b>O</b>rganized</span>
+				</div>
+				<div class="score-item">
+					<div class="icon">
+						<img src="/assets/images/responsive.png" alt="">
+					</div>
+					<span class="text"><b>R</b>esponsive</span>
+				</div>
+				<div class="score-item">
+					<div class="icon">
+						<img src="/assets/images/exciting.png" alt="">
+					</div>
+					<span class="text"><b>E</b>xciting</span>
+				</div>
+				<span class="clearfix"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="row mg-b-30">
+		<div class="col-sm-4 col-sm-offset-4">
+			<div class="stroke-title title text-center"><span>SCORE</span></div>
+		</div>
+	</div>
+
+</div>
+
+<!--<sd-testimonials></sd-testimonials>-->

@@ -1,0 +1,41 @@
+:host .btn-toolbar .btn {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 15px;
+    padding-left: 50px;
+    color: #ffffff;
+    background: #445160;
+    position: relative;
+}
+
+:host .btn-toolbar {
+    display: table;
+    width: 100%;
+}
+
+:host .btn-toolbar>.btn-group {
+    display: table-cell;
+    float: none;
+    width: 155px;
+}
+
+.chat-btn,
+:host .btn-toolbar .btn-group>.btn {
+    width: 200px;
+    text-align: center;
+    height: 50px;
+}
+
+.chat-btn>span,
+:host .btn-toolbar .btn>span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    line-height: 100%;
+    background: #003148;
+    padding: 9px;
+}
+.ts{
+    text-shadow: 1px 3px #003148;
+}

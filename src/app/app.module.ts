@@ -11,15 +11,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { CustomerComponent } from './customer/customer.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { EcommerceComponent } from './ecommerce/ecommerce.component';
 import { WaybillComponent } from './waybill/waybill.component';
 import { FeedbackComponent } from './feedback/feedback.component';
-import { Need2knowComponent } from './need2know/need2know.component';
+import { Need2knowComponent } from './need2know/need_to_know.component';
 import { TarrifcalculatorComponent } from './tarrifcalculator/tarrifcalculator.component';
-import { QuoterequestComponent } from './quoterequest/quoterequest.component';
+import { QuoterequestComponent } from './quoterequest/request_quote.component';
 import { WarehousequoteComponent } from './warehousequote/warehousequote.component';
 import { ThreeplComponent } from './threepl/threepl.component';
 import { SliderComponent } from './slider/slider.component';
@@ -55,7 +54,6 @@ export const appRoutes: Routes = [
     AppComponent,
     AboutComponent,
     ContactComponent,
-    CustomerComponent,
     HomeComponent,
     LoginComponent,
     EcommerceComponent,

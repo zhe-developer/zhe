@@ -1,0 +1,19 @@
+ul {
+    list-style-type: none;
+    padding: 0 0 0 8px;
+}
+
+.ill-image {
+    width: 100%;
+    height: auto;
+}
+.cfc{
+    height: 60px;
+}
+.cfc-ul > li:before {
+    content: "• ";
+    color: #003148; 
+}
+.collapsable-div{
+    height:100%;
+}

@@ -1,0 +1,63 @@
+@media (min-width: 768px) {
+    .form-horizontal .control-label {
+        text-align: left;
+    }
+}
+
+:host .statement {
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+:host .steps {
+    display: table;
+    width: 100%;
+}
+
+:host .step,
+:host .arrow {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    min-height: 100px;
+}
+
+:host .step {
+    border: 2px solid #eee;
+    width: 28%;
+}
+
+:host .arrow {
+    width: 8%;
+}
+
+:host input,
+:host textarea {
+    border-radius: 8px;
+}
+
+.arrow>div {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.arrow>div>span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #D7DE21;
+}
+
+:host .btn-lg {
+    font-weight: 600;
+}
+
+:host sup {
+    color: #EC008B;
+}

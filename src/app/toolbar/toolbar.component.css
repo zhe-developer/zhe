@@ -41,6 +41,7 @@
 }
 
 :host .navbar-nav>li>a {
+<<<<<<< HEAD
     color: #ffffff;
     padding: 5px;
     margin: 5px;
@@ -49,6 +50,29 @@
     height: 32px;
     text-align: center;
 }
+=======
+      display: table-cell;
+      vertical-align: middle; 
+      text-align: center; 
+      height: 50px;
+      width: 50px;  
+      color: #ffffff;
+   
+       
+}
+:host .navbar-nav>
+
+  li {
+    display: inline-block;
+    border: 1px dashed #fff;
+    margin: 5px;
+    border-radius: 50%;
+    height: 51px;
+    width: 51px;
+    }
+
+    
+>>>>>>> ang-dev
 
 :host .navbar-nav>li>a:hover {
     color: #003148;
@@ -63,4 +87,8 @@
      :host .nav>li {
         float: left;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ang-dev

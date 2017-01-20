@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer-contacts {
     height: 120px;
     background: url(../assets/images/contacts_bg.png) no-repeat;
@@ -19,6 +20,8 @@
     color: #ffffff;
 }
 
+=======
+>>>>>>> ang-dev
 :host .navbar {
     background-color: #003148;
     color: rgba(255, 255, 255, 0.87);
@@ -26,6 +29,11 @@
     margin-bottom: 0px;
     height: 48px;
     padding: 0 16px;
+<<<<<<< HEAD
+=======
+    border-color: #003148;
+    border-top-color: #ffffff;
+>>>>>>> ang-dev
 }
 
 .navbar-default .navbar-text {

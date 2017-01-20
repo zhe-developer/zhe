@@ -1,3 +1,87 @@
-<p>
-  tarrifcalculator works!
-</p>
+<div class="bg-lime">
+	<div class="container-fluid">
+		<div class="col-sm-12">
+			<h2 class="title fc-b">Check the price..</h2>
+			<p class="statement mg-t-20 mg-b-20 text-justify fc-blk">
+				Calculate the cost for your specialised logistics needs with our tariff calculator. For a full quote please click the link
+				below and one of our sales agents will contact you.
+			</p>
+			<div class="btn-toolbar center mg-b-20" role="toolbar" aria-label="...">
+				<div class="btn-group" role="group" aria-label="...">
+					<a [routerLink]="['/request-for-quotation']" class="btn btn-default"><span><img src="/images/doc.png" alt=""></span> REQUEST FOR QUOTATION</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="request-form animated fadeInUp bg-wt2">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<form class="form-horizontal">
+					<div class="col-sm-12">
+						<p class="mg-t-20 mg-b-20 text-justify">
+							Enter your details below and our tariff calculator will do a rough estimate for you.Please note that the price may vary.
+						</p>
+						<hr class="col-sm-12 bg-wt">
+					</div>
+					<div class="sub-sec-title"> Parcel Destination</div>
+
+					<div class="form-group">
+						<label for="actualWeight" class="col-sm-3 control-label">From Rate Area<sup>*</sup></label>
+						<div class="col-sm-4">
+							<select class="form-control" name="from_area" [ngModel]="from_area" (ngModelChange)="fromAreaChange($event)">
+                                <option value="200">GBC</option>
+                                <option value="250">FTC</option>
+                                <option value="300">LOBATSE</option>
+                                <option value="300">PLY</option>
+                            </select>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="actualWeight" class="col-sm-3 control-label">To Rate Area<sup>*</sup></label>
+						<div class="col-sm-4">
+							<select class="form-control" name="to_area" [ngModel]="to_area" (ngModelChange)="toAreaChange($event)">
+                                <option value="GBC">GBC</option>
+                                <option value="FTC">FTC</option>
+                                <option value="LOBATSE">LOBATSE</option>
+                                <option value="PLY">PLY</option>
+                            </select>
+						</div>
+					</div>
+
+					<div class="sub-sec-title"> Parcel dimensions</div>
+
+					<div class="form-group">
+						<label for="actualWeight" class="col-sm-3 control-label">Actual weight<sup>*</sup></label>
+						<div class="col-sm-4">
+							<select class="form-control" name="actualWeight" [ngModel]="weight" (ngModelChange)="weightChange($event)">
+                                <option value="25">25 - 50</option>
+                                <option value="50">50 - 75</option>
+                                <option value="75">75 - 100</option>
+                                <option value="100">100 - 125</option>
+                                <option value="125">125 - 150</option>
+                                <option value="150">150 - 175</option>
+                                <option value="175">175 - 200</option>
+                                <option value="200">200 - 225</option>		
+                                <option value="225">225< x >1800</option>
+                                <option value="1800">1800< x >8000</option>
+                            </select>
+						</div>
+					</div>
+
+					<div class="btn-toolbar center mg-b-20" role="toolbar" aria-label="...">
+						<p class="mg-t-20 mg-b-20 text-justify">
+							Required fields are marked with <sup>*</sup>
+						</p>
+						<div class="btn-group " role="group" aria-label="...">
+							<a [routerLink]="['/tariff-calculator']" class="btn btn-default fc-wt3" style="background:#D7DE21 !important"><span><img src="/images/calc.png" alt=""></span> CALCULATE</a>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
