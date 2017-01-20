@@ -1,0 +1,84 @@
+:host .find_us {
+    background: url(../images/contacts_map.png) no-repeat;
+    background-position: center;
+}
+
+:host .contacts {
+    display: table;
+}
+
+:host .contacts>div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 450px;
+}
+
+:host .gmap {
+    height: 350px;
+    background: #f0f0f0;
+}
+
+:host .media-object {
+    max-width: 140px;
+}
+
+:host .media-body p {
+    font-size: 9px;
+    line-height: 10px;
+}
+
+.enquire {
+    background: #0094BF;
+    padding: 10px;
+}
+
+.btn-blue {
+    background: #003249;
+    color: #ffffff;
+}
+.ecom-gray{
+    background: #cecece;
+}
+
+.inner{
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.num-box {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    height: 120px;
+    width: 170px;
+    display: block;
+    color: #f0f0f0;
+    text-align: center;
+    border-bottom-color: #f79420;
+}
+
+.num-box>.num-box-footer {
+    position: relative;
+    padding: 3px 0;
+    display: block;
+    z-index: 10;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn:hover{
+    color:#D7DE21;
+}
+
+.bg-ecom {
+    background: url(../images/ecom-bg.png) repeat-y;
+    background-size: 100% auto;
+}
+
+:host .media .media-body {
+    background: url(../images/greybg.png) repeat-y;
+    background-size: 100% auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 140px;
+}

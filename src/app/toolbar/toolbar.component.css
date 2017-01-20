@@ -1,0 +1,79 @@
+:host {
+    background-color: #003148;
+    color: rgba(255, 255, 255, 0.87);
+    display: block;
+    /*height: 35px;
+    padding: 0 15px;*/
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+:host .navbar-form {
+    padding: 0px 15px;
+    margin-top: 8px;
+}
+
+:host .navbar {
+    min-height: 25px;
+}
+
+:host input {
+    border: 1px dashed #fff;
+    border-right: 1px solid transparent;
+    background: transparent;
+    font-size: 14px;
+    height: 25px;
+    outline: none;
+    padding: 8px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+:host .btn {
+    height: 25px;
+    padding: 3px 6px;
+    background: transparent;
+    color: #fff;
+    border: 1px dashed #fff;
+    border-left: 1px solid transparent;
+    border-radius: 0px 6px 6px 0px;
+}
+
+:host .navbar-nav>li>a {
+      display: table-cell;
+      vertical-align: middle; 
+      text-align: center; 
+      height: 50px;
+      width: 50px;  
+      color: #ffffff;
+   
+       
+}
+:host .navbar-nav>
+
+  li {
+    display: inline-block;
+    border: 1px dashed #fff;
+    margin: 5px;
+    border-radius: 50%;
+    height: 51px;
+    width: 51px;
+    }
+
+    
+
+:host .navbar-nav>li>a:hover {
+    color: #003148;
+}
+
+:host .navbar-nav>li>a>span>img {
+    width: 14px;
+    height: 14px;
+}
+
+@media (max-width: 768px) {
+     :host .nav>li {
+        float: left;
+    }
+}

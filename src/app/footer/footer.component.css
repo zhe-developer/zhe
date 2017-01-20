@@ -1,0 +1,14 @@
+:host .navbar {
+    background-color: #003148;
+    color: rgba(255, 255, 255, 0.87);
+    display: block;
+    margin-bottom: 0px;
+    height: 48px;
+    padding: 0 16px;
+    border-color: #003148;
+    border-top-color: #ffffff;
+}
+
+.navbar-default .navbar-text {
+    color: #ffffff;
+}
