@@ -24,7 +24,17 @@ import { WarehousequoteComponent } from './warehousequote/warehousequote.compone
 import { ThreeplComponent } from './threepl/threepl.component';
 
 export const appRoutes: Routes = [
+    { path: 'about', component: AboutComponent },
     { path: 'contact', component: ContactComponent },
+    { path: 'ecommerce', component: EcommerceComponent },
+    { path: 'services/3pl', component: ThreeplComponent },
+    { path: 'services/cfc', component: CfcComponent },
+    { path: 'login', component: LoginComponent },
+    { path: 'support/quotation/warehousing', component: ContactComponent },
+    { path: 'support/quotation/3pl', component: ContactComponent },
+    { path: 'support/quotation/cfc', component: ContactComponent },
+    { path: 'customer-feedback', component: FeedbackComponent },
+    { path: 'support/need-to-know', component: Need2knowComponent },
   { path: 'support/waybill-guide',      component: WaybillComponent },
   {
     path: 'home',
